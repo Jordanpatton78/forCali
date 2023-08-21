@@ -181,12 +181,7 @@ header {
     width: 260px;
     position: relative;
     height: 490px;
-    border-radius: 10px;
-    border-top: 50px solid white;
-    border-left: 6px solid #fff;
-    border-right: 6px solid #fff;
-    border-bottom: 40px solid #fff;
-    background-image: url("https://s19.postimg.cc/f970vexu9/headphones-2x.jpg");
+    background-image: url("https://i.ibb.co/k6gc31w/dino.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +197,10 @@ header:hover .header-cell {
     transform: translate(-10px, -10px);
     box-shadow: -10px -10px 10px rgb(139, 59, 83);
 }
-
+#heart{
+  height:100px;
+  width:100px;
+}
 .header-cell--dot {
     border-radius: 50%;
     display: block;
@@ -863,6 +861,7 @@ input[type="submit"]:hover {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+        background-image: url("https://i.ibb.co/x750hzZ/wildflowers.png")
     }
     .nav-menu {
         display: none;
