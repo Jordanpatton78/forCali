@@ -87,9 +87,6 @@ blockquote,
     background-color: #fff;
 }
 
-.navigation{
-    display:none;
-}
 
 .disc{
     margin:2%;
@@ -112,7 +109,7 @@ blockquote,
     z-index: 3;
     font-size: 1.2em;
     transition: all 0.4s ease-in-out;
-    width:10%;
+    display: none;
 }
 
 .open {
