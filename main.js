@@ -1,6 +1,7 @@
 const menu = document.getElementsByClassName("nav-menu")[0];
 const navigation = document.getElementById("navigation");
 const hamburger = document.getElementsByClassName("menu-ham");
+const button = document.getElementById("button");
 
 menu.addEventListener("click", toggleMenu);
 

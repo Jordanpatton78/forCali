@@ -86,6 +86,16 @@ blockquote,
 .nav {
     background-color: #fff;
 }
+@media(max-width:600px){
+    .navigation{
+        display:none;
+    }
+}
+
+.disc{
+    margin:2%;
+    vertical-align: middle;
+}
 
 .navigation {
     align-content: center;
@@ -103,6 +113,7 @@ blockquote,
     z-index: 3;
     font-size: 1.2em;
     transition: all 0.4s ease-in-out;
+    width:10%;
 }
 
 .open {
@@ -416,6 +427,10 @@ blockquote::after {
     display: block;
     padding: 3px;
     color: #FE92B2;
+}
+.row{
+    align-items: center;
+    display: flex;
 }
 
 .blog-post {
