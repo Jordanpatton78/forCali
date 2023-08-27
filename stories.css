@@ -86,10 +86,9 @@ blockquote,
 .nav {
     background-color: #fff;
 }
-@media(max-width:600px){
-    .navigation{
-        display:none;
-    }
+
+.navigation{
+    display:none;
 }
 
 .disc{
