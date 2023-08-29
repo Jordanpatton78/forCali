@@ -14,6 +14,12 @@ html {
     height: 100%;
 }
 
+#secretTitle,
+#secret{
+    color:white;
+    margin:2%;
+}
+
 nav{
     background-image: url("img/Screenshot_2023-08-26_9.55.44_PM.png");
 }
